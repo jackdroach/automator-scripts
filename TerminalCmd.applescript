@@ -1,7 +1,6 @@
-on run {input, parameters}
+on run
 	tell application "Terminal"
 		do script "ssh user@hostname"
 		activate
 	end tell
-	return input
 end run

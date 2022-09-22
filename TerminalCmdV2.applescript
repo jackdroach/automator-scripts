@@ -10,5 +10,4 @@ on run
 			activate
 		end tell
 	end if
-	activate
 end run
